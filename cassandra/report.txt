@@ -1,0 +1,3 @@
+Benchmark                             Mode  Cnt  Score   Error  Units
+CassandraBenchmark.benchmarkFetchAll  avgt    9  3,126 ± 0,116  ms/op
+CassandraBenchmark.benchmarkFetchOne  avgt    9  2,603 ± 0,291  ms/op

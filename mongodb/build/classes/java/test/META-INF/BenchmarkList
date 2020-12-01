@@ -1,0 +1,2 @@
+JMH S 44 com.groot.mongodb.benchmark.MongoDBBenchmark S 84 com.groot.mongodb.benchmark.jmh_generated.MongoDBBenchmark_benchmarkFetchOne_jmhTest S 17 benchmarkFetchOne S 11 AverageTime E A 1 1 1 E E E E E E E E E E E E E E U 12 MILLISECONDS E E 
+JMH S 44 com.groot.mongodb.benchmark.MongoDBBenchmark S 84 com.groot.mongodb.benchmark.jmh_generated.MongoDBBenchmark_benchmarkFetchAll_jmhTest S 17 benchmarkFetchAll S 11 AverageTime E A 1 1 1 E E E E E E E E E E E E E E U 12 MILLISECONDS E E 

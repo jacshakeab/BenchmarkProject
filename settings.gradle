@@ -1,0 +1,5 @@
+rootProject.name = 'BenchmarkProject'
+include 'mongodb'
+include 'mysql'
+include 'postgres'
+include 'cassandra'

@@ -1,0 +1,86 @@
+version: "3.7"
+services:
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb
+    command: mongod --serviceExecutor adaptive
+    ports:
+      - 27017:27017
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=admin
+      - MONGO_INITDB_ROOT_PASSWORD=admin
+      - MONGO_INITDB_DATABASE=benchmark
+    volumes:
+      - ~/docker/benchmark/mongodb_data:/data/db
+      - ./mongo_init.js:/docker-entrypoint-initdb.d/mongo-init.js
+
+  cassandra:
+    image: cassandra:latest
+    container_name: cassandra
+    ports:
+      - 9042:9042
+    environment:
+      - MAX_HEAP_SIZE=256M
+      - HEAP_NEWSIZE=128M
+    volumes:
+      - ~/docker/benchmark/cassandra_data:/var/lib/cassandra
+
+  cassandra-load-keyspace:
+    image: cassandra:latest
+    container_name: cassandra-load-keyspace
+    depends_on:
+      - cassandra
+    volumes:
+      - ./cassandra_init.cql:/schema.cql
+    command: /bin/bash -c "sleep 60 && echo loading cassandra keyspace && cqlsh cassandra -f /schema.cql"
+
+  mysql:
+    image: mysql:latest
+    container_name: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: my_secret_password
+      MYSQL_DATABASE: benchmark
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: admin
+    ports:
+      - 3306:3306
+    volumes:
+      - ~/docker/benchmark/mysql_data:/var/lib/mysql
+
+  postgres:
+    image: postgres:latest
+    container_name: postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      PGDATA: /data/postgres
+    volumes:
+      - ~/docker/benchmark/postgres_data:/data/postgres
+      - ./postgres_init.sql:/docker-entrypoint-initdb.d/docker_postgres_init.sql
+    ports:
+      - 5432:5432
+
+  pgadmin:
+    container_name: pgadmin
+    image: dpage/pgadmin4:latest
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin
+      PGADMIN_DEFAULT_PASSWORD: admin
+      PGADMIN_CONFIG_SERVER_MODE: "False"
+      PGADMIN_CONFIG_MASTER_PASSWORD_REQUIRED: "False"
+    volumes:
+      - ~/docker/benchmark/pgadmin:/var/lib/pgadmin
+      - ./pgadmin_servers.json:/pgadmin4/servers.json
+    ports:
+      - 5433:80
+    entrypoint:
+      - "/bin/sh"
+      - "-c"
+      - "/bin/echo 'postgres:5432:*:postgres:password' > /tmp/pgpassfile && chmod 600 /tmp/pgpassfile && /entrypoint.sh"
+
+#volumes:
+#  mongodb_data:
+#  cassandra_data:
+#  mysql_data:
+#  postgres_data:
+#  pgadmin:

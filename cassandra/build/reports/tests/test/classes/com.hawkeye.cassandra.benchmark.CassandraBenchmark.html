@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class com.hawkeye.cassandra.benchmark.CassandraBenchmark</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class com.hawkeye.cassandra.benchmark.CassandraBenchmark</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.hawkeye.cassandra.benchmark.html">com.hawkeye.cassandra.benchmark</a> &gt; CassandraBenchmark</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">4m18.31s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">executeJmhRunner</td>
+<td class="success">4m18.31s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>14:58:37.586 [Test worker] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.hawkeye.cassandra.benchmark.CassandraBenchmark]
+14:58:37.601 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+14:58:37.613 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+14:58:37.660 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.hawkeye.cassandra.benchmark.CassandraBenchmark] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+14:58:37.684 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.hawkeye.cassandra.benchmark.CassandraBenchmark], using SpringBootContextLoader
+14:58:37.690 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.hawkeye.cassandra.benchmark.CassandraBenchmark]: class path resource [com/hawkeye/cassandra/benchmark/CassandraBenchmark-context.xml] does not exist
+14:58:37.691 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.hawkeye.cassandra.benchmark.CassandraBenchmark]: class path resource [com/hawkeye/cassandra/benchmark/CassandraBenchmarkContext.groovy] does not exist
+14:58:37.692 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.hawkeye.cassandra.benchmark.CassandraBenchmark]: no resource found for suffixes {-context.xml, Context.groovy}.
+14:58:37.693 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.hawkeye.cassandra.benchmark.CassandraBenchmark]: CassandraBenchmark does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:58:37.814 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.hawkeye.cassandra.benchmark.CassandraBenchmark]
+14:58:37.950 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [E:\dev\Uni\Research Methods\BenchmarkProject\cassandra\build\classes\java\main\com\hawkeye\cassandra\CassandraApplication.class]
+14:58:37.953 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.hawkeye.cassandra.CassandraApplication for test class com.hawkeye.cassandra.benchmark.CassandraBenchmark
+14:58:38.164 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.hawkeye.cassandra.benchmark.CassandraBenchmark]: using defaults.
+14:58:38.165 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+14:58:38.176 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [javax/servlet/ServletContext]
+14:58:38.191 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@647417c8, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1ce19d2d, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5ee65d91, org.springframework.test.context.support.DirtiesContextTestExecutionListener@122f23aa, org.springframework.test.context.transaction.TransactionalTestExecutionListener@56a1bc70, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@46b94b7c, org.springframework.test.context.event.EventPublishingTestExecutionListener@2adf9cef, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4186d86d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1a9fae11, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@16f1e495, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@401f2a40, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@372dd79e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5025184c]
+14:58:38.196 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.hawkeye.cassandra.benchmark.CassandraBenchmark]
+14:58:38.198 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.hawkeye.cassandra.benchmark.CassandraBenchmark]
+14:58:38.200 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.hawkeye.cassandra.benchmark.CassandraBenchmark]
+14:58:38.200 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.hawkeye.cassandra.benchmark.CassandraBenchmark]
+14:58:38.203 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.hawkeye.cassandra.benchmark.CassandraBenchmark]
+14:58:38.204 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.hawkeye.cassandra.benchmark.CassandraBenchmark]
+14:58:38.206 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.hawkeye.cassandra.benchmark.CassandraBenchmark]
+14:58:38.206 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.hawkeye.cassandra.benchmark.CassandraBenchmark]
+14:58:38.208 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.hawkeye.cassandra.benchmark.CassandraBenchmark]
+14:58:38.208 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.hawkeye.cassandra.benchmark.CassandraBenchmark]
+14:58:38.217 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@1b8ff1c7 testClass = CassandraBenchmark, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@b8d2caa testClass = CassandraBenchmark, locations = '{}', classes = '{class com.hawkeye.cassandra.CassandraApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@5fcaa7f6, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@71a0e559, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@42eca0f0, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@6bb3ed0e, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@11991810], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+14:58:38.221 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.hawkeye.cassandra.benchmark.CassandraBenchmark]
+14:58:38.222 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.hawkeye.cassandra.benchmark.CassandraBenchmark]
+14:58:38.231 [Test worker] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@1b8ff1c7 testClass = CassandraBenchmark, testInstance = com.hawkeye.cassandra.benchmark.CassandraBenchmark@4a294dd7, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@b8d2caa testClass = CassandraBenchmark, locations = '{}', classes = '{class com.hawkeye.cassandra.CassandraApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@5fcaa7f6, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@71a0e559, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@42eca0f0, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@6bb3ed0e, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@11991810], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]]].
+14:58:38.266 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.5.RELEASE)
+
+2020-12-01 14:58:38.655  WARN 38532 --- [    Test worker] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/jaciw/.gradle/caches/modules-2/files-2.1/com.vaadin.external.google/android-json/0.0.20131108.vaadin1/fa26d351fe62a6a17f5cda1287c1c6110dec413f/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/jaciw/.gradle/caches/modules-2/files-2.1/org.json/json/20090211/c183aa3a2a6250293808bba12262c8920ce5a51c/json-20090211.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2020-12-01 14:58:38.674  INFO 38532 --- [    Test worker] c.h.c.benchmark.CassandraBenchmark       : Starting CassandraBenchmark on DESKTOP-3IU3Q7U with PID 38532 (started by jaciw in E:\dev\Uni\Research Methods\BenchmarkProject\cassandra)
+2020-12-01 14:58:38.676  INFO 38532 --- [    Test worker] c.h.c.benchmark.CassandraBenchmark       : No active profile set, falling back to default profiles: default
+2020-12-01 14:58:40.248  INFO 38532 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Reactive Cassandra repositories in DEFAULT mode.
+2020-12-01 14:58:40.317  INFO 38532 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62ms. Found 0 Reactive Cassandra repository interfaces.
+2020-12-01 14:58:40.339  INFO 38532 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Cassandra repositories in DEFAULT mode.
+2020-12-01 14:58:40.369  INFO 38532 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29ms. Found 1 Cassandra repository interfaces.
+2020-12-01 14:58:41.070  INFO 38532 --- [    Test worker] c.d.o.d.internal.core.ContactPoints      : Contact point localhost:9042 resolves to multiple addresses, will use them all ([localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1])
+2020-12-01 14:58:41.308  INFO 38532 --- [    Test worker] c.d.o.d.i.core.DefaultMavenCoordinates   : DataStax Java driver for Apache Cassandra(R) (com.datastax.oss:java-driver-core) version 4.6.1
+2020-12-01 14:58:42.441  INFO 38532 --- [     s0-admin-0] c.d.oss.driver.internal.core.time.Clock  : Using native clock for microsecond precision
+2020-12-01 14:58:44.642  INFO 38532 --- [        s0-io-0] c.d.o.d.i.core.channel.ChannelFactory    : [s0] Failed to connect with protocol DSE_V2, retrying with DSE_V1
+2020-12-01 14:58:44.663  INFO 38532 --- [        s0-io-1] c.d.o.d.i.core.channel.ChannelFactory    : [s0] Failed to connect with protocol DSE_V1, retrying with V4
+2020-12-01 14:58:45.587  INFO 38532 --- [        s0-io-2] c.d.oss.driver.api.core.uuid.Uuids       : PID obtained through native call to getpid(): 38532
+2020-12-01 14:58:45.808  WARN 38532 --- [     s0-admin-0] c.d.o.d.i.c.l.h.OptionalLocalDcHelper    : [s0|default] You specified datacenter1 as the local DC, but some contact points are from a different DC: Node(endPoint=localhost/127.0.0.1:9042, hostId=null, hashCode=41326315)=null; please provide the correct local DC, or check your contact points
+2020-12-01 14:58:47.328  INFO 38532 --- [    Test worker] c.h.c.benchmark.CassandraBenchmark       : Started CassandraBenchmark in 9.058 seconds (JVM running for 12.465)
+# JMH version: 1.26
+# VM version: JDK 11.0.9.1, OpenJDK 64-Bit Server VM, 11.0.9.1+1
+# VM invoker: C:\Program Files\AdoptOpenJDK\jdk-11.0.9.101-hotspot\bin\java.exe
+# VM options: -server -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=heapdump.hprof -XX:StartFlightRecording=disk=true,dumponexit=true,filename=recording-test.jfr,maxsize=1024m,maxage=1d,settings=profile,path-to-gc-roots=true
+# Warmup: 3 iterations, 10 s each
+# Measurement: 9 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.hawkeye.cassandra.benchmark.CassandraBenchmark.benchmarkFetchAll
+
+# Run progress: 0,00% complete, ETA 00:04:00
+# Fork: N/A, test runs in the host VM
+# *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
+# *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
+# Warmup Iteration   1: 3,811 ms/op
+# Warmup Iteration   2: 3,494 ms/op
+# Warmup Iteration   3: 3,216 ms/op
+Iteration   1: 3,214 ms/op
+Iteration   2: 3,174 ms/op
+Iteration   3: 3,221 ms/op
+Iteration   4: 3,167 ms/op
+Iteration   5: 3,059 ms/op
+Iteration   6: 3,116 ms/op
+Iteration   7: 3,082 ms/op
+Iteration   8: 3,057 ms/op
+Iteration   9: 3,047 ms/op
+
+Result &quot;com.hawkeye.cassandra.benchmark.CassandraBenchmark.benchmarkFetchAll&quot;:
+  3,126 ±(99.9%) 0,116 ms/op [Average]
+  (min, avg, max) = (3,047, 3,126, 3,221), stdev = 0,069
+  CI (99.9%): [3,010, 3,243] (assumes normal distribution)
+
+
+# JMH version: 1.26
+# VM version: JDK 11.0.9.1, OpenJDK 64-Bit Server VM, 11.0.9.1+1
+# VM invoker: C:\Program Files\AdoptOpenJDK\jdk-11.0.9.101-hotspot\bin\java.exe
+# VM options: -server -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=heapdump.hprof -XX:StartFlightRecording=disk=true,dumponexit=true,filename=recording-test.jfr,maxsize=1024m,maxage=1d,settings=profile,path-to-gc-roots=true
+# Warmup: 3 iterations, 10 s each
+# Measurement: 9 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.hawkeye.cassandra.benchmark.CassandraBenchmark.benchmarkFetchOne
+
+# Run progress: 50,00% complete, ETA 00:02:08
+# Fork: N/A, test runs in the host VM
+# *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
+# *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
+# Warmup Iteration   1: 2,896 ms/op
+# Warmup Iteration   2: 2,754 ms/op
+# Warmup Iteration   3: 2,492 ms/op
+Iteration   1: 2,613 ms/op
+Iteration   2: 2,799 ms/op
+Iteration   3: 2,963 ms/op
+Iteration   4: 2,403 ms/op
+Iteration   5: 2,508 ms/op
+Iteration   6: 2,533 ms/op
+Iteration   7: 2,499 ms/op
+Iteration   8: 2,517 ms/op
+Iteration   9: 2,595 ms/op
+
+Result &quot;com.hawkeye.cassandra.benchmark.CassandraBenchmark.benchmarkFetchOne&quot;:
+  2,603 ±(99.9%) 0,291 ms/op [Average]
+  (min, avg, max) = (2,403, 2,603, 2,963), stdev = 0,173
+  CI (99.9%): [2,312, 2,895] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:04:17
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                             Mode  Cnt  Score   Error  Units
+CassandraBenchmark.benchmarkFetchAll  avgt    9  3,126 ± 0,116  ms/op
+CassandraBenchmark.benchmarkFetchOne  avgt    9  2,603 ± 0,291  ms/op
+
+Benchmark result is saved to ./report.txt
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.3</a> at 01.12.2020, 15:03:08</p>
+</div>
+</div>
+</body>
+</html>

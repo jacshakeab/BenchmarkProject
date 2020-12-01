@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class com.loki.mysql.benchmark.MySQLBenchmark</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class com.loki.mysql.benchmark.MySQLBenchmark</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.loki.mysql.benchmark.html">com.loki.mysql.benchmark</a> &gt; MySQLBenchmark</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">4m22.30s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">executeJmhRunner</td>
+<td class="success">4m22.30s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>15:31:27.324 [Test worker] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.loki.mysql.benchmark.MySQLBenchmark]
+15:31:27.339 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+15:31:27.351 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+15:31:27.411 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.loki.mysql.benchmark.MySQLBenchmark] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+15:31:27.444 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.loki.mysql.benchmark.MySQLBenchmark], using SpringBootContextLoader
+15:31:27.452 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.loki.mysql.benchmark.MySQLBenchmark]: class path resource [com/loki/mysql/benchmark/MySQLBenchmark-context.xml] does not exist
+15:31:27.452 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.loki.mysql.benchmark.MySQLBenchmark]: class path resource [com/loki/mysql/benchmark/MySQLBenchmarkContext.groovy] does not exist
+15:31:27.453 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.loki.mysql.benchmark.MySQLBenchmark]: no resource found for suffixes {-context.xml, Context.groovy}.
+15:31:27.454 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.loki.mysql.benchmark.MySQLBenchmark]: MySQLBenchmark does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:31:27.555 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.loki.mysql.benchmark.MySQLBenchmark]
+15:31:27.674 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [E:\dev\Uni\Research Methods\BenchmarkProject\mysql\build\classes\java\main\com\loki\mysql\MysqlApplication.class]
+15:31:27.681 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.loki.mysql.MysqlApplication for test class com.loki.mysql.benchmark.MySQLBenchmark
+15:31:27.889 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.loki.mysql.benchmark.MySQLBenchmark]: using defaults.
+15:31:27.890 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+15:31:27.920 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@56a14ae7, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@15b21d01, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@f527f36, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4553d7d9, org.springframework.test.context.support.DirtiesContextTestExecutionListener@19f95be6, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1ca617cd, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1170a0, org.springframework.test.context.event.EventPublishingTestExecutionListener@5b278264, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@8d2d48d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@24e6b225, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2ff95269, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@482ad150, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@56c21264, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@47a4e503]
+15:31:27.928 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.loki.mysql.benchmark.MySQLBenchmark]
+15:31:27.930 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.loki.mysql.benchmark.MySQLBenchmark]
+15:31:27.938 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.loki.mysql.benchmark.MySQLBenchmark]
+15:31:27.938 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.loki.mysql.benchmark.MySQLBenchmark]
+15:31:27.941 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.loki.mysql.benchmark.MySQLBenchmark]
+15:31:27.941 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.loki.mysql.benchmark.MySQLBenchmark]
+15:31:27.943 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.loki.mysql.benchmark.MySQLBenchmark]
+15:31:27.943 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.loki.mysql.benchmark.MySQLBenchmark]
+15:31:27.944 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.loki.mysql.benchmark.MySQLBenchmark]
+15:31:27.945 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.loki.mysql.benchmark.MySQLBenchmark]
+15:31:27.953 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@74b86b6 testClass = MySQLBenchmark, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@22e20c56 testClass = MySQLBenchmark, locations = '{}', classes = '{class com.loki.mysql.MysqlApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@48b00e4d, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@37c8f853, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@7b993db3, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@16c2fb34, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@44d44162], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true]], class annotated with @DirtiesContext [false] with mode [null].
+15:31:27.956 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.loki.mysql.benchmark.MySQLBenchmark]
+15:31:27.956 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.loki.mysql.benchmark.MySQLBenchmark]
+15:31:27.993 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.5.RELEASE)
+
+2020-12-01 15:31:28.491  INFO 32296 --- [    Test worker] com.loki.mysql.benchmark.MySQLBenchmark  : Starting MySQLBenchmark on DESKTOP-3IU3Q7U with PID 32296 (started by jaciw in E:\dev\Uni\Research Methods\BenchmarkProject\mysql)
+2020-12-01 15:31:28.493  INFO 32296 --- [    Test worker] com.loki.mysql.benchmark.MySQLBenchmark  : No active profile set, falling back to default profiles: default
+2020-12-01 15:31:30.014  INFO 32296 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-01 15:31:30.157  INFO 32296 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 122ms. Found 1 JPA repository interfaces.
+2020-12-01 15:31:31.416  INFO 32296 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-01 15:31:31.529  INFO 32296 --- [         task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-01 15:31:31.664  INFO 32296 --- [         task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.22.Final
+2020-12-01 15:31:31.879  WARN 32296 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-01 15:31:32.073  INFO 32296 --- [         task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-01 15:31:32.322  INFO 32296 --- [         task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-01 15:31:33.590  INFO 32296 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-01 15:31:34.725  INFO 32296 --- [         task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-01 15:31:34.767  INFO 32296 --- [         task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-12-01 15:31:37.644  INFO 32296 --- [         task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-01 15:31:37.657  INFO 32296 --- [         task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-01 15:31:37.678  INFO 32296 --- [    Test worker] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-12-01 15:31:38.281  INFO 32296 --- [    Test worker] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-12-01 15:31:38.297  INFO 32296 --- [    Test worker] com.loki.mysql.benchmark.MySQLBenchmark  : Started MySQLBenchmark in 10.286 seconds (JVM running for 13.83)
+# JMH version: 1.26
+# VM version: JDK 11.0.9.1, OpenJDK 64-Bit Server VM, 11.0.9.1+1
+# VM invoker: C:\Program Files\AdoptOpenJDK\jdk-11.0.9.101-hotspot\bin\java.exe
+# VM options: -server -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=heapdump.hprof -XX:StartFlightRecording=disk=true,dumponexit=true,filename=recording-test.jfr,maxsize=1024m,maxage=1d,settings=profile,path-to-gc-roots=true
+# Warmup: 3 iterations, 10 s each
+# Measurement: 9 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.loki.mysql.benchmark.MySQLBenchmark.benchmarkFetchAll
+
+# Run progress: 0,00% complete, ETA 00:04:00
+# Fork: N/A, test runs in the host VM
+# *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
+# *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
+# Warmup Iteration   1: 53,869 ms/op
+# Warmup Iteration   2: 43,446 ms/op
+# Warmup Iteration   3: 46,771 ms/op
+Iteration   1: 39,957 ms/op
+Iteration   2: 20,338 ms/op
+Iteration   3: 19,804 ms/op
+Iteration   4: 24,857 ms/op
+Iteration   5: 27,471 ms/op
+Iteration   6: 24,370 ms/op
+Iteration   7: 24,885 ms/op
+Iteration   8: 22,501 ms/op
+Iteration   9: 24,580 ms/op
+
+Result &quot;com.loki.mysql.benchmark.MySQLBenchmark.benchmarkFetchAll&quot;:
+  25,418 ±(99.9%) 10,009 ms/op [Average]
+  (min, avg, max) = (19,804, 25,418, 39,957), stdev = 5,956
+  CI (99.9%): [15,409, 35,428] (assumes normal distribution)
+
+
+# JMH version: 1.26
+# VM version: JDK 11.0.9.1, OpenJDK 64-Bit Server VM, 11.0.9.1+1
+# VM invoker: C:\Program Files\AdoptOpenJDK\jdk-11.0.9.101-hotspot\bin\java.exe
+# VM options: -server -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=heapdump.hprof -XX:StartFlightRecording=disk=true,dumponexit=true,filename=recording-test.jfr,maxsize=1024m,maxage=1d,settings=profile,path-to-gc-roots=true
+# Warmup: 3 iterations, 10 s each
+# Measurement: 9 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.loki.mysql.benchmark.MySQLBenchmark.benchmarkFetchOne
+
+# Run progress: 50,00% complete, ETA 00:02:11
+# Fork: N/A, test runs in the host VM
+# *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
+# *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
+# Warmup Iteration   1: 5,429 ms/op
+# Warmup Iteration   2: 6,403 ms/op
+# Warmup Iteration   3: 5,259 ms/op
+Iteration   1: 4,520 ms/op
+Iteration   2: 5,557 ms/op
+Iteration   3: 4,188 ms/op
+Iteration   4: 4,874 ms/op
+Iteration   5: 5,465 ms/op
+Iteration   6: 5,548 ms/op
+Iteration   7: 5,971 ms/op
+Iteration   8: 4,028 ms/op
+Iteration   9: 19,771 ms/op
+
+Result &quot;com.loki.mysql.benchmark.MySQLBenchmark.benchmarkFetchOne&quot;:
+  6,658 ±(99.9%) 8,340 ms/op [Average]
+  (min, avg, max) = (4,028, 6,658, 19,771), stdev = 4,963
+  CI (99.9%): [? 0, 14,998] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:04:22
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                         Mode  Cnt   Score    Error  Units
+MySQLBenchmark.benchmarkFetchAll  avgt    9  25,418 ± 10,009  ms/op
+MySQLBenchmark.benchmarkFetchOne  avgt    9   6,658 ±  8,340  ms/op
+
+Benchmark result is saved to ./report.txt
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.3</a> at 01.12.2020, 15:36:02</p>
+</div>
+</div>
+</body>
+</html>

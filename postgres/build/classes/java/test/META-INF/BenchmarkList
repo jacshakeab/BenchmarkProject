@@ -1,0 +1,2 @@
+JMH S 45 com.thor.postgres.benchmark.PostgresBenchmark S 85 com.thor.postgres.benchmark.jmh_generated.PostgresBenchmark_benchmarkFetchOne_jmhTest S 17 benchmarkFetchOne S 11 AverageTime E A 1 1 1 E E E E E E E E E E E E E E U 12 MILLISECONDS E E 
+JMH S 45 com.thor.postgres.benchmark.PostgresBenchmark S 85 com.thor.postgres.benchmark.jmh_generated.PostgresBenchmark_benchmarkFetchAll_jmhTest S 17 benchmarkFetchAll S 11 AverageTime E A 1 1 1 E E E E E E E E E E E E E E U 12 MILLISECONDS E E 

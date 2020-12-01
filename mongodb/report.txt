@@ -1,0 +1,3 @@
+Benchmark                           Mode  Cnt  Score   Error  Units
+MongoDBBenchmark.benchmarkFetchAll  avgt    9  4,192 ± 0,965  ms/op
+MongoDBBenchmark.benchmarkFetchOne  avgt    9  4,535 ± 1,486  ms/op

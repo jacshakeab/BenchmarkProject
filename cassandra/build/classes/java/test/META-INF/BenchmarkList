@@ -1,0 +1,2 @@
+JMH S 50 com.hawkeye.cassandra.benchmark.CassandraBenchmark S 90 com.hawkeye.cassandra.benchmark.jmh_generated.CassandraBenchmark_benchmarkFetchOne_jmhTest S 17 benchmarkFetchOne S 11 AverageTime E A 1 1 1 E E E E E E E E E E E E E E U 12 MILLISECONDS E E 
+JMH S 50 com.hawkeye.cassandra.benchmark.CassandraBenchmark S 90 com.hawkeye.cassandra.benchmark.jmh_generated.CassandraBenchmark_benchmarkFetchAll_jmhTest S 17 benchmarkFetchAll S 11 AverageTime E A 1 1 1 E E E E E E E E E E E E E E U 12 MILLISECONDS E E 

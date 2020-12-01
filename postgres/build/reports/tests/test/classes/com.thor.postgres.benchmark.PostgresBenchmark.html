@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class com.thor.postgres.benchmark.PostgresBenchmark</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class com.thor.postgres.benchmark.PostgresBenchmark</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.thor.postgres.benchmark.html">com.thor.postgres.benchmark</a> &gt; PostgresBenchmark</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">4m20.23s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">executeJmhRunner</td>
+<td class="success">4m20.23s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>15:36:54.588 [Test worker] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.thor.postgres.benchmark.PostgresBenchmark]
+15:36:54.604 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+15:36:54.618 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+15:36:54.676 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.thor.postgres.benchmark.PostgresBenchmark] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+15:36:54.702 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.thor.postgres.benchmark.PostgresBenchmark], using SpringBootContextLoader
+15:36:54.711 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.thor.postgres.benchmark.PostgresBenchmark]: class path resource [com/thor/postgres/benchmark/PostgresBenchmark-context.xml] does not exist
+15:36:54.712 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.thor.postgres.benchmark.PostgresBenchmark]: class path resource [com/thor/postgres/benchmark/PostgresBenchmarkContext.groovy] does not exist
+15:36:54.712 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.thor.postgres.benchmark.PostgresBenchmark]: no resource found for suffixes {-context.xml, Context.groovy}.
+15:36:54.713 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.thor.postgres.benchmark.PostgresBenchmark]: PostgresBenchmark does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:36:54.784 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.thor.postgres.benchmark.PostgresBenchmark]
+15:36:54.901 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [E:\dev\Uni\Research Methods\BenchmarkProject\postgres\build\classes\java\main\com\thor\postgres\PostgresApplication.class]
+15:36:54.903 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.thor.postgres.PostgresApplication for test class com.thor.postgres.benchmark.PostgresBenchmark
+15:36:55.131 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.thor.postgres.benchmark.PostgresBenchmark]: using defaults.
+15:36:55.132 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+15:36:55.150 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [javax/servlet/ServletContext]
+15:36:55.159 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7144cd2, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6ceb0ba4, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@13583d95, org.springframework.test.context.support.DirtiesContextTestExecutionListener@44b2df69, org.springframework.test.context.transaction.TransactionalTestExecutionListener@616569f1, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5567f852, org.springframework.test.context.event.EventPublishingTestExecutionListener@781c3fe, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@559a0df0, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1ffadc53, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@75b50296, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7ca2a1ed, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@7952c604, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@30038539]
+15:36:55.162 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.thor.postgres.benchmark.PostgresBenchmark]
+15:36:55.163 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.thor.postgres.benchmark.PostgresBenchmark]
+15:36:55.166 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.thor.postgres.benchmark.PostgresBenchmark]
+15:36:55.166 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.thor.postgres.benchmark.PostgresBenchmark]
+15:36:55.169 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.thor.postgres.benchmark.PostgresBenchmark]
+15:36:55.173 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.thor.postgres.benchmark.PostgresBenchmark]
+15:36:55.176 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.thor.postgres.benchmark.PostgresBenchmark]
+15:36:55.176 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.thor.postgres.benchmark.PostgresBenchmark]
+15:36:55.177 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.thor.postgres.benchmark.PostgresBenchmark]
+15:36:55.177 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.thor.postgres.benchmark.PostgresBenchmark]
+15:36:55.188 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@4748ee37 testClass = PostgresBenchmark, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@4e4e8f77 testClass = PostgresBenchmark, locations = '{}', classes = '{class com.thor.postgres.PostgresApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@25e78211, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@ce11b8, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@18b103b2, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@6f11f327, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@700102f8], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+15:36:55.194 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.thor.postgres.benchmark.PostgresBenchmark]
+15:36:55.194 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.thor.postgres.benchmark.PostgresBenchmark]
+15:36:55.202 [Test worker] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@4748ee37 testClass = PostgresBenchmark, testInstance = com.thor.postgres.benchmark.PostgresBenchmark@12e1e627, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@4e4e8f77 testClass = PostgresBenchmark, locations = '{}', classes = '{class com.thor.postgres.PostgresApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@25e78211, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@ce11b8, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@18b103b2, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@6f11f327, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@700102f8], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]]].
+15:36:55.249 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.5.RELEASE)
+
+2020-12-01 15:36:55.716  INFO 39244 --- [    Test worker] c.t.p.benchmark.PostgresBenchmark        : Starting PostgresBenchmark on DESKTOP-3IU3Q7U with PID 39244 (started by jaciw in E:\dev\Uni\Research Methods\BenchmarkProject\postgres)
+2020-12-01 15:36:55.718  INFO 39244 --- [    Test worker] c.t.p.benchmark.PostgresBenchmark        : No active profile set, falling back to default profiles: default
+2020-12-01 15:36:56.887  INFO 39244 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-01 15:36:57.019  INFO 39244 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 113ms. Found 1 JPA repository interfaces.
+2020-12-01 15:36:57.968  INFO 39244 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-01 15:36:58.077  INFO 39244 --- [         task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-01 15:36:58.201  INFO 39244 --- [         task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.22.Final
+2020-12-01 15:36:58.702  INFO 39244 --- [         task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-01 15:36:59.037  INFO 39244 --- [         task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-01 15:36:59.674  INFO 39244 --- [         task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-01 15:36:59.712  INFO 39244 --- [         task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-12-01 15:37:01.427  WARN 39244 --- [         task-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2020-12-01 15:37:01.427  WARN 39244 --- [         task-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : table &quot;student&quot; does not exist, skipping
+2020-12-01 15:37:01.434  WARN 39244 --- [         task-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2020-12-01 15:37:01.434  WARN 39244 --- [         task-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : sequence &quot;hibernate_sequence&quot; does not exist, skipping
+2020-12-01 15:37:01.530  INFO 39244 --- [         task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-01 15:37:01.543  INFO 39244 --- [         task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-01 15:37:01.558  INFO 39244 --- [    Test worker] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-12-01 15:37:02.089  INFO 39244 --- [    Test worker] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-12-01 15:37:02.107  INFO 39244 --- [    Test worker] c.t.p.benchmark.PostgresBenchmark        : Started PostgresBenchmark in 6.847 seconds (JVM running for 9.953)
+# JMH version: 1.26
+# VM version: JDK 11.0.9.1, OpenJDK 64-Bit Server VM, 11.0.9.1+1
+# VM invoker: C:\Program Files\AdoptOpenJDK\jdk-11.0.9.101-hotspot\bin\java.exe
+# VM options: -server -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=heapdump.hprof -XX:StartFlightRecording=disk=true,dumponexit=true,filename=recording-test.jfr,maxsize=1024m,maxage=1d,settings=profile,path-to-gc-roots=true
+# Warmup: 3 iterations, 10 s each
+# Measurement: 9 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.thor.postgres.benchmark.PostgresBenchmark.benchmarkFetchAll
+
+# Run progress: 0,00% complete, ETA 00:04:00
+# Fork: N/A, test runs in the host VM
+# *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
+# *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
+# Warmup Iteration   1: 11,151 ms/op
+# Warmup Iteration   2: 11,152 ms/op
+# Warmup Iteration   3: 9,989 ms/op
+Iteration   1: 9,638 ms/op
+Iteration   2: 16,841 ms/op
+Iteration   3: 13,856 ms/op
+Iteration   4: 11,444 ms/op
+Iteration   5: 10,088 ms/op
+Iteration   6: 7,623 ms/op
+Iteration   7: 8,243 ms/op
+Iteration   8: 7,966 ms/op
+Iteration   9: 8,084 ms/op
+
+Result &quot;com.thor.postgres.benchmark.PostgresBenchmark.benchmarkFetchAll&quot;:
+  10,420 ±(99.9%) 5,276 ms/op [Average]
+  (min, avg, max) = (7,623, 10,420, 16,841), stdev = 3,140
+  CI (99.9%): [5,144, 15,696] (assumes normal distribution)
+
+
+# JMH version: 1.26
+# VM version: JDK 11.0.9.1, OpenJDK 64-Bit Server VM, 11.0.9.1+1
+# VM invoker: C:\Program Files\AdoptOpenJDK\jdk-11.0.9.101-hotspot\bin\java.exe
+# VM options: -server -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=heapdump.hprof -XX:StartFlightRecording=disk=true,dumponexit=true,filename=recording-test.jfr,maxsize=1024m,maxage=1d,settings=profile,path-to-gc-roots=true
+# Warmup: 3 iterations, 10 s each
+# Measurement: 9 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.thor.postgres.benchmark.PostgresBenchmark.benchmarkFetchOne
+
+# Run progress: 50,00% complete, ETA 00:02:10
+# Fork: N/A, test runs in the host VM
+# *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
+# *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
+# Warmup Iteration   1: 3,817 ms/op
+# Warmup Iteration   2: 5,203 ms/op
+# Warmup Iteration   3: 5,301 ms/op
+Iteration   1: 4,928 ms/op
+Iteration   2: 14,291 ms/op
+Iteration   3: 4,348 ms/op
+Iteration   4: 3,964 ms/op
+Iteration   5: 3,824 ms/op
+Iteration   6: 3,904 ms/op
+Iteration   7: 4,622 ms/op
+Iteration   8: 4,050 ms/op
+Iteration   9: 4,693 ms/op
+
+Result &quot;com.thor.postgres.benchmark.PostgresBenchmark.benchmarkFetchOne&quot;:
+  5,403 ±(99.9%) 5,639 ms/op [Average]
+  (min, avg, max) = (3,824, 5,403, 14,291), stdev = 3,356
+  CI (99.9%): [? 0, 11,042] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:04:20
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                            Mode  Cnt   Score   Error  Units
+PostgresBenchmark.benchmarkFetchAll  avgt    9  10,420 ± 5,276  ms/op
+PostgresBenchmark.benchmarkFetchOne  avgt    9   5,403 ± 5,639  ms/op
+
+Benchmark result is saved to ./report.txt
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.3</a> at 01.12.2020, 15:41:23</p>
+</div>
+</div>
+</body>
+</html>
